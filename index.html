@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREMIO</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<body>
+    <header>
+        <h1 id="tit">let's count 😃</h1>
+    </header>
+    <section id="sec">
+        <div id='counters'>
+            <p>Start: <input type="number" name="txts" id="txts"></p>
+            <p>End: <input type="number" name="txte" id="txte"></p>
+            <p>Step: <input type="number" name="txtr" id="txtr">
+            <input type="button" value="Count!" onClick="count()">
+            <input type="button" value="Refresh!" onClick="refresh()" ondblclick="rock()">
+            </p>
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+</body>
+<footer>
+    <p>&copy;xodrom.inc</p>
+</footer>
+</html>
